@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22520" started-at="2021-08-19T17:08:39Z" finished-at="2021-08-19T17:09:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22520" started-at="2021-08-19T17:08:39Z" finished-at="2021-08-19T17:09:02Z">
+      <class name="com.deasliwant.admin.tests.FindWork">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="setup" is-config="true" duration-ms="10365" started-at="2021-08-19T22:38:39Z" finished-at="2021-08-19T22:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCategoryListing()[pri:1, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="verifyCategoryListing" duration-ms="230" started-at="2021-08-19T22:38:50Z" finished-at="2021-08-19T22:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoryListing -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="getResult" is-config="true" duration-ms="4" started-at="2021-08-19T22:38:50Z" finished-at="2021-08-19T22:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCategoryListing status=SUCCESS method=FindWork.verifyCategoryListing()[pri:1, instance:com.deasliwant.admin.tests.FindWork@4678c730] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifySearchResultTitleAndDistance()[pri:2, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="verifySearchResultTitleAndDistance" duration-ms="5564" started-at="2021-08-19T22:38:50Z" finished-at="2021-08-19T22:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultTitleAndDistance -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="getResult" is-config="true" duration-ms="0" started-at="2021-08-19T22:38:55Z" finished-at="2021-08-19T22:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchResultTitleAndDistance status=SUCCESS method=FindWork.verifySearchResultTitleAndDistance()[pri:2, instance:com.deasliwant.admin.tests.FindWork@4678c730] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyStudioDetails()[pri:3, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="verifyStudioDetails" duration-ms="4147" started-at="2021-08-19T22:38:55Z" finished-at="2021-08-19T22:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStudioDetails -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="getResult" is-config="true" duration-ms="3" started-at="2021-08-19T22:39:00Z" finished-at="2021-08-19T22:39:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStudioDetails status=SUCCESS method=FindWork.verifyStudioDetails()[pri:3, instance:com.deasliwant.admin.tests.FindWork@4678c730] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getBusinessHours()[pri:4, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="getBusinessHours" duration-ms="470" started-at="2021-08-19T22:39:00Z" finished-at="2021-08-19T22:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBusinessHours -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="getResult" is-config="true" duration-ms="1" started-at="2021-08-19T22:39:00Z" finished-at="2021-08-19T22:39:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getBusinessHours status=SUCCESS method=FindWork.getBusinessHours()[pri:4, instance:com.deasliwant.admin.tests.FindWork@4678c730] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.deasliwant.admin.tests.FindWork@4678c730]" name="tearDown" is-config="true" duration-ms="1703" started-at="2021-08-19T22:39:00Z" finished-at="2021-08-19T22:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.deasliwant.admin.tests.FindWork -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

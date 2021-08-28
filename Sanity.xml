@@ -1,0 +1,17 @@
+<suite name="sanity suite">
+    
+    <test name="sanity test">
+        
+        <classes>
+            
+            <class name="com.deasliwant.admin.tests.FindWork"></class>
+            
+        </classes>
+        
+    </test>
+    
+    
+   
+    
+    
+</suite>

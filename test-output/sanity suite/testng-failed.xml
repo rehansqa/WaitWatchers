@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sanity suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="sanity test">
+    <classes>
+      <class name="com.deasliwant.admin.tests.CategoryTests"/>
+    </classes>
+  </test> <!-- sanity test -->
+  <test name="sanity test1">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.deasliwant.admin.tests.CategoryTests"/>
+    </classes>
+  </test> <!-- sanity test1 -->
+  <test name="sanity test(failed)">
+    <classes>
+      <class name="com.deasliwant.admin.tests.CategoryTests">
+        <methods>
+          <include name="verifyCategoryListing"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.deasliwant.admin.tests.CategoryTests -->
+    </classes>
+  </test> <!-- sanity test(failed) -->
+  <test name="sanity test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.deasliwant.admin.tests.CategoryTests">
+        <methods>
+          <include name="verifyCategoryListing"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.deasliwant.admin.tests.CategoryTests -->
+    </classes>
+  </test> <!-- sanity test1(failed) -->
+</suite> <!-- Failed suite [sanity suite] -->
